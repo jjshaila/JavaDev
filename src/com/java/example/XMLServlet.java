@@ -12,7 +12,7 @@ import javax.servlet.http.HttpSession;
 
 public class XMLServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
+		
 		 System.out.println("In XML Servlet");
 		 String userName = request.getParameter("userName");
 		// System.out.println("Hello "+userName);
